@@ -5,7 +5,7 @@ on:
     branches:
       - master
   schedule:
-    - cron: "*/5 * * * *" # Runs every 5 minutes (Check https://crontab.guru/)
+    - cron: '0 8 * * *' # Runs at 8:00 AM UTC every day (Check https://crontab.guru/)
 
 jobs:
   zotero-to-readwise-automation:
