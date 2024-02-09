@@ -1,6 +1,7 @@
 name: Zotero to Readwise Automation
 
 on:
+  workflow_dispatch: # This line allows manual triggering of the workflow
   push:
     branches:
       - master
